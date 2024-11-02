@@ -1,6 +1,6 @@
-# Gem5-OnChipWireless
+# Gem5X-OnChipWireless
 
-Just trying to simulate Gem5X for On Chip Wireless communication.
+Just having a blast simulating Gem5X for On Chip Wireless communication.
 
 Project is actually completed entirely, will add all the code files post my project evaluation at IIIT Delhi.
 
