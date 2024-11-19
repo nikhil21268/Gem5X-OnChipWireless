@@ -1,0 +1,30 @@
+ifneq ($(shell uname -m), armv7l)
+CROSS_COMPILE?=aarch64-linux-
+endif
+CC=$(CROSS_COMPILE)gcc
+AS=$(CROSS_COMPILE)as
+LD=$(CROSS_COMPILE)ld
+AR=$(CROSS_COMPILE)ar
+GF= aarch64-linux-gnu-gfortran-8
+
+CFLAGS= -Wall -lm -static
+FFLAGS= -Wall 
+
+all: stream-aarch64-c stream2-aarch64-c stream2-aarch64-f stream-aarch64-f
+
+stream-aarch64-c: Stream.c
+	$(CC) -O -fopenmp -o stream-aarch64-c Stream.c $(CFLAGS)
+	
+stream2-aarch64-c: Stream2.c
+	$(CC) -O -o stream2-aarch64-c Stream2.c $(CFLAGS)	
+	
+stream-aarch64-f: Stream.f mysecond.c
+	$(CC) -c mysecond.c
+	$(GF) -O Stream.f mysecond.o -o stream-aarch64-f $(FFLAGS)
+	
+stream2-aarch64-f: Stream2.f mysecond.c
+	$(CC) -c mysecond.c
+	$(GF) -O Stream2.f mysecond.o -o stream2-aarch64-f $(FFLAGS)
+
+clean:
+	rm -f *.o *-c *-f fort.3

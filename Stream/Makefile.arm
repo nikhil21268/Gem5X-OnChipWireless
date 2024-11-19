@@ -1,0 +1,35 @@
+ifneq ($(shell uname -m), armv7l)
+CROSS_COMPILE?=arm-linux-gnueabihf-
+endif
+CC=$(CROSS_COMPILE)gcc
+AS=$(CROSS_COMPILE)as
+LD=$(CROSS_COMPILE)ld
+AR=$(CROSS_COMPILE)ar
+GF=$(CROSS_COMPILE)gfortran-8
+
+
+CFLAGS= -Wall -lm -static
+FFLAGS= -Wall 
+
+all: stream-arm-c stream2-arm-c stream-arm-f stream2-arm-f
+
+stream-arm-c: Stream.c
+	$(CC) -O -fopenmp -o stream-arm-c Stream.c $(CFLAGS)
+
+stream-arm-c-tiny: Stream.c
+	$(CC) -O -DSTREAM_ARRAY_SIZE=10000 -DNTIMES=2 -fopenmp -o stream-arm-c-tiny Stream.c $(CFLAGS)
+	
+stream2-arm-c: Stream2.c
+	$(CC) -O -o stream2-arm-c Stream2.c $(CFLAGS)	
+	
+stream-arm-f: Stream.f mysecond.c
+	$(CC) -c mysecond.c
+	$(GF) -O Stream.f mysecond.o -o stream-arm-f $(FFLAGS)
+	
+stream2-arm-f: Stream2.f mysecond.c
+	$(CC) -c mysecond.c
+	$(GF) -O Stream2.f mysecond.o -o stream2-arm-f $(FFLAGS)
+
+clean:
+	rm -f *.o *-c *-f fort.3
+
