@@ -1,6 +1,3 @@
-#line 185 "/home/nikhil/On-Chip-Wireless/benchmarks/splash2/codes/null_macros/c.m4.null.POSIX_BARRIER"
-
-#line 1 "split.H"
 /*************************************************************************/
 /*                                                                       */
 /*  Copyright (c) 1994 Stanford University                               */
