@@ -167,25 +167,24 @@ These applications offer diverse computational and communication patterns for co
 ## Plots
 
 ### Raytrace Benchmark
-
-![Raytrace Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_1.png)
-![Raytrace Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_2.png)
+![Raytrace Plot](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_1.png)
+![Raytrace Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_2.png)
 
 ### Radiosity Benchmark
 
-![Radiosity Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_3.png)
+![Radiosity Plot](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_3.png)
 
-![Radiosity Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_4.png)
+![Radiosity Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_4.png)
 ### OceanCP Benchmark
 
-![OceanCP Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_5.png)
+![OceanCP Plot](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_5.png)
 
-![OceanCP Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_6.png)
+![OceanCP Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_6.png)
 ### Stream Benchmark
 
-![Stream Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_7.png)
+![Stream Plot](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_7.png)
 
-![Stream Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_8.png)
+![Stream Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/Plots/Figure_8.png)
 
 ## Conclusion
 
