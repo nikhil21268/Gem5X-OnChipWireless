@@ -168,21 +168,24 @@ These applications offer diverse computational and communication patterns for co
 
 ### Raytrace Benchmark
 
-![Raytrace Plot](path_to_raytrace_plot.png)
+![Raytrace Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_1.png)
+![Raytrace Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_2.png)
 
 ### Radiosity Benchmark
 
-![Radiosity Plot](path_to_radiosity_plot.png)
+![Radiosity Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_3.png)
 
+![Radiosity Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_4.png)
 ### OceanCP Benchmark
 
-![OceanCP Plot](path_to_oceancp_plot.png)
+![OceanCP Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_5.png)
 
+![OceanCP Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_6.png)
 ### Stream Benchmark
 
-![Stream Plot](path_to_stream_plot.png)
+![Stream Plot](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_7.png)
 
-*(Note: Replace `path_to_*_plot.png` with the actual paths to the plot images.)*
+![Stream Plot2](https://github.com/nikhil21268/gem5x-private/blob/main/final%20project%20eval/Plots/Figure_8.png)
 
 ## Conclusion
 
